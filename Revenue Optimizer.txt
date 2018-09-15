@@ -1,0 +1,37 @@
+Revenue Optimizer
+
+
+Trottle messages - wait for potential life cycle. What wait time? 1 minute to allow each change settle. Make configurable. Sabre use 5 minutes window to pick the latest. Might need test for optimal timing. Need to check with Astral how they push changes through. Order isn't important. Sabre will take the latest based on timestamp. 
+
+Look at nightly batch of replay of all messages sent to Sabre during the day. Provide estimate for effort. Assuming message are replayed from DEI.
+
+Messages are fire and forget. Need to replay messages from defined period of time. This would be on demand from Sabre. Needs to be maintained for the previous 7 days.
+
+ExtendedRouteKey is a composite of other fields.
+
+ADL20170316XX0124TAU***41202660NRT,NRT20170316YY0181TAU***41202660MAD
+
+Interline flight might need to leave out other airlines. 
+
+Code share flights are included i.e. marketed flights. Needs to be checked.
+
+Show up probably not in scope.
+
+Point of commencement (POC) is to be used for POS.
+
+Need to do a look up of the city to get the IATA equivalent.
+
+Filtering logic will take status into account. Codes are in the document.
+
+
+
+
+
+
+
+
+
+
+
+
+

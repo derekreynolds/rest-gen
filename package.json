@@ -1,0 +1,17 @@
+{
+  "name": "generator-rest-gen",
+  "version": "0.1.0",
+  "description": "Generator to create a Spring Boot REST endpoint and associated scaffolding.",
+  "scripts": {
+
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
